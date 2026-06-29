@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR2n0039/v1
+canonical_location: https://kanripo.org/bkk/KR2n0039/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 萬氏石經考
+  date: '2015-08-24 22:55:14.656606'
+  source:
+    repository: kanripo
+    path: KR2n0039
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2n0039_000.yaml, hash: 'sha256:2fb49edfa499ad08528ee7545ddaf3c42dee9c8734c5580651ad43327833d3f0'}
+  - {seq: 1, filename: KR2n0039_001.yaml, hash: 'sha256:4998683fc8578c9c679c7073632d084eaa3711fa230d6a72940bf184657f06f7'}
+  - {seq: 2, filename: KR2n0039_002.yaml, hash: 'sha256:6dc28ae42f44806f39b094183b41f10d8237dbbe2637156390f915125f49f1b3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2n0039_000.markers.yaml, hash: 'sha256:25040a4ba514aea8386569279f1daff4bfbf17ca6baba0b3d56eabdadfd4e78a'}
+  - {seq: 1, role: markers, filename: assets/KR2n0039_001.markers.yaml, hash: 'sha256:3c288923fdb87c511ee34c997c70dd34fa0a8730501a29cb2869dca4a670b7c6'}
+  - {seq: 2, role: markers, filename: assets/KR2n0039_002.markers.yaml, hash: 'sha256:42a254ca48e0a16138e838557bdf516abe44d8d26ad23962b734d7cbb9480ebd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2n0039_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 257
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2n0039_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 13802
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2n0039_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 12207
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:f1e1c8299bf1493c43cf157eff2f70b5ec1dd6c2ba921256fa5ff24c06c4a88a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
